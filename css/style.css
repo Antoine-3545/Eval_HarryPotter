@@ -272,6 +272,21 @@ header ul {
 .house-blue img:hover   { box-shadow: 0 0 24px -2px var(--house-color); }
 .house-yellow img:hover { box-shadow: 0 0 24px -2px var(--house-color); }
 
+.perso__right p {
+  display: flex;             
+  justify-content: flex-start; 
+  margin: 5px 0;
+}
+
+.perso__right .label {
+  width: 200px;  
+}
+
+.perso__right .value {
+  font-weight: bold;
+}
+
+
 
 
 
