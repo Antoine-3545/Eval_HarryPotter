@@ -215,3 +215,51 @@ header ul {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Mes ajouts de styles : */
+
+
+.houses img {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.houses img:hover {
+  transform: scale(1.1);
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
+
+.characters img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 8px solid transparent; 
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  object-fit: cover;
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+
+.house-red {       --house-color: var(--red); }
+.house-gold {      --house-color: var(--gold); }
+.house-green {     --house-color: var(--green); }
+.house-blue {      --house-color: var(--blue); }
+.house-yellow {    --house-color: var(--yellow); }
+
+.house-red img,
+.house-gold img,
+.house-green img,
+.house-blue img,
+.house-yellow img {
+  border-color: var(--house-color);
+}
+
+.characters img:hover {
+  transform: scale(1.08);
+}
+
+.house-red img:hover    { box-shadow: 0 0 24px -2px var(--house-color); }
+.house-gold img:hover   { box-shadow: 0 0 24px -2px var(--house-color); }
+.house-green img:hover  { box-shadow: 0 0 24px -2px var(--house-color); }
+.house-blue img:hover   { box-shadow: 0 0 24px -2px var(--house-color); }
+.house-yellow img:hover { box-shadow: 0 0 24px -2px var(--house-color); }
+
+
