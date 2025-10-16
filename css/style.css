@@ -257,10 +257,21 @@ header ul {
   transform: scale(1.08);
 }
 
+.characters figure p {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 8px;
+  color: var(--house-color, var(--gold)); 
+  transition: color 0.25s ease;
+}
+
+
 .house-red img:hover    { box-shadow: 0 0 24px -2px var(--house-color); }
 .house-gold img:hover   { box-shadow: 0 0 24px -2px var(--house-color); }
 .house-green img:hover  { box-shadow: 0 0 24px -2px var(--house-color); }
 .house-blue img:hover   { box-shadow: 0 0 24px -2px var(--house-color); }
 .house-yellow img:hover { box-shadow: 0 0 24px -2px var(--house-color); }
+
+
 
 
