@@ -143,6 +143,9 @@ footer p {
 .characters p {
   text-align: center;
   color: var(--Gold, #b99049);
+  /* Ajout de ma part */
+  font-weight: bold;
+  margin-top: 12px;
 }
 
 /* PAGE PERSO */
